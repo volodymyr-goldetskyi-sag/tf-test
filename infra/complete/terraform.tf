@@ -1,5 +1,6 @@
 terraform {
-  required_version = ">=1.7.0"
+  #required_version = ">=1.7.0"
+  required_version = "1.3.9" #!NOTE: Latest supported atm by tf-controller
   required_providers {
     flux = {
       source = "fluxcd/flux"
