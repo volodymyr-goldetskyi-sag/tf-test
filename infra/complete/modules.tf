@@ -1,6 +1,6 @@
 module "eks" {
   #source                          = "git::git@github.softwareag.com:IOTA/c8y-tf-eks.git//c8y-eks-cluster"
-  source                          = "git::https://github.softwareag.com/IOTA/c8y-tf-eks.git//c8y-eks-cluster"
+  source                          = "github.softwareag.com/IOTA/c8y-tf-eks.git//c8y-eks-cluster"
   vpc_cidr                        = var.eks_vpc_cidr
   vpc_name                        = var.eks_vpc_name
   eks_cluster_name                = var.eks_cluster_name
